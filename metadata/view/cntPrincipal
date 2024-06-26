@@ -1,0 +1,2260 @@
+{
+    "type": "Ext.container.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "designer|userAlias": "cntPrincipal",
+        "designer|userClassName": "cntPrincipal",
+        "height": 733,
+        "id": "cntPrincipal",
+        "layout": "fit",
+        "width": 1122
+    },
+    "configAlternates": {
+        "designer|initialView": "boolean",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "layout": "string",
+        "width": "auto",
+        "id": "string"
+    },
+    "name": "MyContainer",
+    "designerId": "847c810b-2610-4ea4-b455-6068a982d299",
+    "viewControllerInstanceId": "69f76c2b-2887-477f-8198-1e216df92658",
+    "viewModelInstanceId": "18cb483d-436a-4efb-9e5d-29b4d1388f9f",
+    "cn": [
+        {
+            "type": "Ext.tab.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "activeTab": 0
+            },
+            "configAlternates": {
+                "activeTab": "auto"
+            },
+            "name": "MyTabPanel",
+            "designerId": "d60f7778-2aaf-4e09-81cf-e67375e6db2c",
+            "cn": [
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout": "fit",
+                        "title": "Upa Upa"
+                    },
+                    "configAlternates": {
+                        "layout": "string",
+                        "title": "string"
+                    },
+                    "name": "MyPanel",
+                    "designerId": "8904fea1-ea84-456f-a6a3-c5bd9aab4c47",
+                    "cn": [
+                        {
+                            "type": "Ext.tab.Tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "name": "TabConfig",
+                            "designerId": "62e1de34-08bf-469c-ad29-01eed2635b45"
+                        },
+                        {
+                            "type": "Ext.panel.Panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout": "border"
+                            },
+                            "configAlternates": {
+                                "layout": "string"
+                            },
+                            "name": "MyPanel3",
+                            "designerId": "c50e02a6-e4fb-4a54-85f8-ac5bf0eefb1c",
+                            "cn": [
+                                {
+                                    "type": "Ext.panel.Panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "container|align": "stretch",
+                                        "layout": "vbox",
+                                        "layout|flex": 0.8,
+                                        "layout|region": "west",
+                                        "width": 150
+                                    },
+                                    "configAlternates": {
+                                        "container|align": "string",
+                                        "layout": "string",
+                                        "layout|flex": "number",
+                                        "layout|region": "string",
+                                        "width": "auto"
+                                    },
+                                    "name": "MyPanel5",
+                                    "designerId": "2bcb2629-09e1-46b3-9b90-1565091e50af",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.grid.Panel",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "columnLines": true,
+                                                "designer|uiInterfaceName": "default-framed",
+                                                "forceFit": true,
+                                                "frame": true,
+                                                "height": 234,
+                                                "id": "grdDominios",
+                                                "store": "DominiosStore"
+                                            },
+                                            "configAlternates": {
+                                                "designer|uiInterfaceName": "string",
+                                                "frame": "boolean",
+                                                "height": "auto",
+                                                "forceFit": "boolean",
+                                                "id": "string",
+                                                "store": "store",
+                                                "columnLines": "boolean"
+                                            },
+                                            "name": "MyGridPanel",
+                                            "designerId": "5d1d7ea9-43f4-4046-8ef3-9cf4226c11b1",
+                                            "cn": [
+                                                {
+                                                    "type": "Ext.toolbar.Toolbar",
+                                                    "reference": {
+                                                        "name": "dockedItems",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "dock": "top"
+                                                    },
+                                                    "configAlternates": {
+                                                        "dock": "string"
+                                                    },
+                                                    "name": "MyToolbar5",
+                                                    "designerId": "112353e2-7bdc-4bf7-8737-cacd104659d5",
+                                                    "cn": [
+                                                        {
+                                                            "type": "Ext.button.Button",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "iconCls": "x-fa fa-plus-square",
+                                                                "layout|flex": null,
+                                                                "text": "Insertar"
+                                                            },
+                                                            "configAlternates": {
+                                                                "iconCls": "string",
+                                                                "layout|flex": "number",
+                                                                "text": "string"
+                                                            },
+                                                            "name": "MyButton5",
+                                                            "designerId": "2b8a00b1-52cc-426b-9215-64e9ac973b41",
+                                                            "cn": [
+                                                                {
+                                                                    "type": "viewcontrollereventbinding",
+                                                                    "reference": {
+                                                                        "name": "listeners",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "fn": "onBtnInsertarDomClick",
+                                                                        "implHandler": [
+                                                                            "Upa_Upa.controller.funciones.showWin('winDominios', {data: null});"
+                                                                        ],
+                                                                        "name": "click",
+                                                                        "scope": "me"
+                                                                    },
+                                                                    "configAlternates": {
+                                                                        "fn": "string",
+                                                                        "implHandler": "code",
+                                                                        "name": "string",
+                                                                        "scope": "string"
+                                                                    },
+                                                                    "name": "onBtnInsertarDomClick",
+                                                                    "designerId": "bca69570-3a89-44e9-a97c-83ff61c85e82"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "Ext.button.Button",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "iconCls": "x-fa fa-edit",
+                                                                "layout|flex": null,
+                                                                "text": "Modificar"
+                                                            },
+                                                            "configAlternates": {
+                                                                "iconCls": "string",
+                                                                "layout|flex": "number",
+                                                                "text": "string"
+                                                            },
+                                                            "name": "MyButton12",
+                                                            "designerId": "3f1b2307-1624-4280-ad7e-14e892bf0de1",
+                                                            "cn": [
+                                                                {
+                                                                    "type": "viewcontrollereventbinding",
+                                                                    "reference": {
+                                                                        "name": "listeners",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "fn": "onBtnModificarDomClick",
+                                                                        "implHandler": [
+                                                                            "let grid = Ext.getCmp('grdDominios');",
+                                                                            "const selection = grid.getSelectionModel().getSelection();",
+                                                                            "if(selection.length === 1){",
+                                                                            "  Upa_Upa.controller.funciones.showWin('winDominios', {data: selection[0].data});",
+                                                                            "}"
+                                                                        ],
+                                                                        "name": "click",
+                                                                        "scope": "me"
+                                                                    },
+                                                                    "configAlternates": {
+                                                                        "fn": "string",
+                                                                        "implHandler": "code",
+                                                                        "name": "string",
+                                                                        "scope": "string"
+                                                                    },
+                                                                    "name": "onBtnModificarDomClick",
+                                                                    "designerId": "4c20c646-294e-4f20-82f5-91bdab5db836"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "Ext.grid.column.Column",
+                                                    "reference": {
+                                                        "name": "columns",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "dataIndex": "id_dominio",
+                                                        "hidden": true,
+                                                        "text": "Id. Dominio"
+                                                    },
+                                                    "configAlternates": {
+                                                        "dataIndex": "datafield",
+                                                        "hidden": "boolean",
+                                                        "text": "string"
+                                                    },
+                                                    "name": "MyColumn11",
+                                                    "designerId": "a8c21f8b-2762-49e9-920c-4287ddc54197"
+                                                },
+                                                {
+                                                    "type": "Ext.grid.column.Column",
+                                                    "reference": {
+                                                        "name": "columns",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "dataIndex": "descripcion_dominio",
+                                                        "text": "Dominio"
+                                                    },
+                                                    "configAlternates": {
+                                                        "dataIndex": "datafield",
+                                                        "text": "string"
+                                                    },
+                                                    "name": "MyColumn",
+                                                    "designerId": "7ba94cfa-f62e-46c1-9f82-2c9e2c291159"
+                                                },
+                                                {
+                                                    "type": "Ext.grid.column.Column",
+                                                    "reference": {
+                                                        "name": "columns",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "dataIndex": "estado_dominio",
+                                                        "text": "Estado"
+                                                    },
+                                                    "configAlternates": {
+                                                        "dataIndex": "datafield",
+                                                        "text": "string"
+                                                    },
+                                                    "name": "MyColumn4",
+                                                    "designerId": "35ec1900-07e8-4bf8-a813-1846855d641e",
+                                                    "cn": [
+                                                        {
+                                                            "type": "fixedfunction",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|params": [
+                                                                    "value",
+                                                                    "metaData",
+                                                                    "record",
+                                                                    "rowIndex",
+                                                                    "colIndex",
+                                                                    "store",
+                                                                    "view"
+                                                                ],
+                                                                "fn": "renderer",
+                                                                "implHandler": [
+                                                                    "if(value === 'A')",
+                                                                    "  return 'Activo';",
+                                                                    "else",
+                                                                    "  return '<span style=\"color:#FF0000\">Inactivo</span>';"
+                                                                ]
+                                                            },
+                                                            "configAlternates": {
+                                                                "designer|params": "typedarray",
+                                                                "fn": "string",
+                                                                "implHandler": "code"
+                                                            },
+                                                            "name": "renderer",
+                                                            "designerId": "e6d3f599-3464-492e-a800-f2d8583a34f2"
+                                                        },
+                                                        {
+                                                            "type": "Ext.form.field.ComboBox",
+                                                            "reference": {
+                                                                "name": "editor",
+                                                                "type": "object"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "store": [
+                                                                    "[['A','Activo'],['I','Inactivo']]"
+                                                                ]
+                                                            },
+                                                            "configAlternates": {
+                                                                "store": "array"
+                                                            },
+                                                            "name": "MyComboBox2",
+                                                            "designerId": "97da6ce9-eb6e-41d0-998e-3b4909255ce3"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "viewcontrollereventbinding",
+                                                    "reference": {
+                                                        "name": "listeners",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "fn": "onGrdDominiosRowClick",
+                                                        "implHandler": [
+                                                            "Ext.getCmp('txtGrdAplicacionesDom').setValue(record.data.id_dominio);",
+                                                            "var store = Ext.getCmp('grdAplicaciones').getStore();",
+                                                            "store.proxy.extraParams =",
+                                                            "{",
+                                                            "  idGrid: 'aplicaciones',",
+                                                            "  idFiltro: record.data.id_dominio,",
+                                                            "  colFiltro: 'id_dominio'",
+                                                            "};",
+                                                            "store.load();"
+                                                        ],
+                                                        "name": "rowclick",
+                                                        "scope": "me"
+                                                    },
+                                                    "configAlternates": {
+                                                        "fn": "string",
+                                                        "implHandler": "code",
+                                                        "name": "string",
+                                                        "scope": "string"
+                                                    },
+                                                    "name": "onGrdDominiosRowClick",
+                                                    "designerId": "ecf3d1b5-0c44-443f-8a03-3563e8dba8c0"
+                                                },
+                                                {
+                                                    "type": "Ext.grid.plugin.CellEditing",
+                                                    "reference": {
+                                                        "name": "plugins",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "name": "MyCellEditingPlugin2",
+                                                    "designerId": "424b7b20-621e-4b6d-95fb-472bd3f84baa",
+                                                    "cn": [
+                                                        {
+                                                            "type": "viewcontrollereventbinding",
+                                                            "reference": {
+                                                                "name": "listeners",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "fn": "onCellEditingEdit2",
+                                                                "implHandler": [
+                                                                    "if(context.originalValue !== context.value && (context.value !== null))",
+                                                                    "{",
+                                                                    "  Ext.Ajax.request",
+                                                                    "  (",
+                                                                    "    {",
+                                                                    "      url: '../servidor/upaupa/savedomain',",
+                                                                    "      // A continuación los parámetros",
+                                                                    "      params: {",
+                                                                    "        data: Ext.JSON.encode(context.record.data)",
+                                                                    "      },",
+                                                                    "      callback: function(obj, success, response)",
+                                                                    "      {",
+                                                                    "        if(success)",
+                                                                    "        {",
+                                                                    "          var responseData = Ext.JSON.decode(response.responseText);",
+                                                                    "          var store = editor.grid.getStore();",
+                                                                    "          //Comita los cambios",
+                                                                    "          store.commitChanges();",
+                                                                    "          //Coloca el nuevo id en la columna correspondiente",
+                                                                    "          context.record.commit();",
+                                                                    "        }",
+                                                                    "        else",
+                                                                    "          Ext.Msg.show",
+                                                                    "          (",
+                                                                    "            {",
+                                                                    "              title: 'ERROR',",
+                                                                    "              msg: 'Ha ocurrido un error al grabar',",
+                                                                    "              icon: Ext.Msg.ERROR,",
+                                                                    "              buttons: Ext.Msg.OK",
+                                                                    "            }",
+                                                                    "          );",
+                                                                    "      }",
+                                                                    "    }",
+                                                                    "  );",
+                                                                    "}"
+                                                                ],
+                                                                "name": "edit",
+                                                                "scope": "me"
+                                                            },
+                                                            "configAlternates": {
+                                                                "fn": "string",
+                                                                "implHandler": "code",
+                                                                "name": "string",
+                                                                "scope": "string"
+                                                            },
+                                                            "name": "onCellEditingEdit2",
+                                                            "designerId": "36571b03-f486-492c-add6-50ae3547b14e"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Ext.grid.Panel",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "columnLines": true,
+                                                "designer|uiInterfaceName": "default-framed",
+                                                "forceFit": true,
+                                                "frame": true,
+                                                "id": "grdAplicaciones",
+                                                "layout|flex": 1,
+                                                "store": "AplicacionesStore"
+                                            },
+                                            "configAlternates": {
+                                                "designer|uiInterfaceName": "string",
+                                                "frame": "boolean",
+                                                "layout|flex": "number",
+                                                "forceFit": "boolean",
+                                                "columnLines": "boolean",
+                                                "id": "string",
+                                                "store": "store"
+                                            },
+                                            "name": "MyGridPanel1",
+                                            "designerId": "7c3c0efa-8316-4344-8fcd-75e96318a0ea",
+                                            "cn": [
+                                                {
+                                                    "type": "Ext.toolbar.Toolbar",
+                                                    "reference": {
+                                                        "name": "dockedItems",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "dock": "top"
+                                                    },
+                                                    "configAlternates": {
+                                                        "dock": "string"
+                                                    },
+                                                    "name": "MyToolbar6",
+                                                    "designerId": "a80f4fd8-fc46-44df-a87e-b32ae53b1109",
+                                                    "cn": [
+                                                        {
+                                                            "type": "Ext.button.Button",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "iconCls": "x-fa fa-plus-square",
+                                                                "layout|flex": null,
+                                                                "text": "Insertar"
+                                                            },
+                                                            "configAlternates": {
+                                                                "iconCls": "string",
+                                                                "layout|flex": "number",
+                                                                "text": "string"
+                                                            },
+                                                            "name": "MyButton13",
+                                                            "designerId": "5266e3d4-8a51-432e-a6af-26f0a4b765b1",
+                                                            "cn": [
+                                                                {
+                                                                    "type": "viewcontrollereventbinding",
+                                                                    "reference": {
+                                                                        "name": "listeners",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "fn": "onBtnInsertarAppClick",
+                                                                        "implHandler": [
+                                                                            "const idMaster = Ext.getCmp('txtGrdAplicacionesDom').getValue();",
+                                                                            "if(idMaster !== ''){",
+                                                                            "  const grid = Ext.getCmp('grdAplicaciones');",
+                                                                            "  let store = grid.getStore();",
+                                                                            "  const data = [{",
+                                                                            "    id_aplicacion: 0,",
+                                                                            "    id_dominio: idMaster,",
+                                                                            "    descripcion_aplicacion: '',",
+                                                                            "    estado_aplicacion: 'I',",
+                                                                            "    bdd_aplicacion: null,",
+                                                                            "    estado_bdd_aplicacion: 'X',",
+                                                                            "    ver_aplicacion: 'N',",
+                                                                            "    directorio_local: ''",
+                                                                            "  }];",
+                                                                            "  store.insert(0, data);",
+                                                                            "}"
+                                                                        ],
+                                                                        "name": "click",
+                                                                        "scope": "me"
+                                                                    },
+                                                                    "configAlternates": {
+                                                                        "fn": "string",
+                                                                        "implHandler": "code",
+                                                                        "name": "string",
+                                                                        "scope": "string"
+                                                                    },
+                                                                    "name": "onBtnInsertarAppClick",
+                                                                    "designerId": "6b7fbbf5-c426-46a7-9544-a3c6d10e5ec7"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "Ext.form.field.Hidden",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "id": "txtGrdAplicacionesDom",
+                                                                "layout|flex": null
+                                                            },
+                                                            "configAlternates": {
+                                                                "id": "string",
+                                                                "layout|flex": "number"
+                                                            },
+                                                            "name": "MyHiddenField",
+                                                            "designerId": "35ed38fe-3372-430f-818b-e30efbe06234"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "Ext.grid.column.Column",
+                                                    "reference": {
+                                                        "name": "columns",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "dataIndex": "descripcion_aplicacion",
+                                                        "text": "Aplicación"
+                                                    },
+                                                    "configAlternates": {
+                                                        "dataIndex": "datafield",
+                                                        "text": "string"
+                                                    },
+                                                    "name": "MyColumn1",
+                                                    "designerId": "c7fbe04d-9c90-46d8-85db-b657007acdf5",
+                                                    "cn": [
+                                                        {
+                                                            "type": "Ext.form.field.Text",
+                                                            "reference": {
+                                                                "name": "editor",
+                                                                "type": "object"
+                                                            },
+                                                            "codeClass": null,
+                                                            "name": "MyTextField3",
+                                                            "designerId": "259ca65c-878a-40b3-8e9a-282c21a2f6f5"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "Ext.grid.column.Column",
+                                                    "reference": {
+                                                        "name": "columns",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "dataIndex": "estado_aplicacion",
+                                                        "text": "Estado"
+                                                    },
+                                                    "configAlternates": {
+                                                        "dataIndex": "datafield",
+                                                        "text": "string"
+                                                    },
+                                                    "name": "MyColumn5",
+                                                    "designerId": "c1cce5d1-7040-4d60-9ea9-ed382f4b008a",
+                                                    "cn": [
+                                                        {
+                                                            "type": "fixedfunction",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|params": [
+                                                                    "value",
+                                                                    "metaData",
+                                                                    "record",
+                                                                    "rowIndex",
+                                                                    "colIndex",
+                                                                    "store",
+                                                                    "view"
+                                                                ],
+                                                                "fn": "renderer",
+                                                                "implHandler": [
+                                                                    "if(value === 'A')",
+                                                                    "  return 'Activo';",
+                                                                    "else",
+                                                                    "  return '<span style=\"color:#FF0000\">Inactivo</span>';"
+                                                                ]
+                                                            },
+                                                            "configAlternates": {
+                                                                "designer|params": "typedarray",
+                                                                "fn": "string",
+                                                                "implHandler": "code"
+                                                            },
+                                                            "name": "renderer",
+                                                            "designerId": "065dc8dc-dcaf-4538-be68-572347a0f3d3"
+                                                        },
+                                                        {
+                                                            "type": "Ext.form.field.ComboBox",
+                                                            "reference": {
+                                                                "name": "editor",
+                                                                "type": "object"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "displayField": "nombre",
+                                                                "store": [
+                                                                    "[",
+                                                                    "  {codigo: 'A', nombre: 'Activo'},",
+                                                                    "  {codigo: 'I', nombre: 'Inactivo'}",
+                                                                    "]"
+                                                                ],
+                                                                "valueField": "codigo"
+                                                            },
+                                                            "configAlternates": {
+                                                                "store": "array",
+                                                                "displayField": "datafield",
+                                                                "valueField": "datafield"
+                                                            },
+                                                            "name": "MyComboBox",
+                                                            "designerId": "9d988a8a-fefe-4690-9962-ed10fc8c84f2"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "Ext.grid.column.Column",
+                                                    "reference": {
+                                                        "name": "columns",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "dataIndex": "directorio_local",
+                                                        "text": "Directorio local"
+                                                    },
+                                                    "configAlternates": {
+                                                        "dataIndex": "datafield",
+                                                        "text": "string"
+                                                    },
+                                                    "name": "MyColumn9",
+                                                    "designerId": "830bd99a-44fa-49c7-85e9-08fa4260f840",
+                                                    "cn": [
+                                                        {
+                                                            "type": "Ext.form.field.Text",
+                                                            "reference": {
+                                                                "name": "editor",
+                                                                "type": "object"
+                                                            },
+                                                            "codeClass": null,
+                                                            "name": "MyTextField9",
+                                                            "designerId": "d649eba3-3e43-4415-a9ad-5699f5898262"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "Ext.grid.plugin.CellEditing",
+                                                    "reference": {
+                                                        "name": "plugins",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "name": "MyCellEditingPlugin",
+                                                    "designerId": "a290d4a3-d5af-4ea6-a07d-664d5ed99545",
+                                                    "cn": [
+                                                        {
+                                                            "type": "viewcontrollereventbinding",
+                                                            "reference": {
+                                                                "name": "listeners",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "fn": "onCellEditingEdit",
+                                                                "implHandler": [
+                                                                    "if(context.originalValue !== context.value && (context.value !== null))",
+                                                                    "{",
+                                                                    "  Ext.Ajax.request",
+                                                                    "  (",
+                                                                    "    {",
+                                                                    "      url: '../servidor/upaupa/saveapp',",
+                                                                    "      // A continuación los parámetros",
+                                                                    "      params: {",
+                                                                    "        data: Ext.JSON.encode(context.record.data)",
+                                                                    "      },",
+                                                                    "      callback: function(obj, success, response)",
+                                                                    "      {",
+                                                                    "        if(success)",
+                                                                    "        {",
+                                                                    "          var res = Ext.JSON.decode(response.responseText);",
+                                                                    "          var store = editor.grid.getStore();",
+                                                                    "          //Comita los cambios",
+                                                                    "          store.commitChanges();",
+                                                                    "          //Coloca el nuevo id en la columna correspondiente",
+                                                                    "          context.record.beginEdit();",
+                                                                    "          context.record.set('id_aplicacion', res.newId);",
+                                                                    "          context.record.commit();",
+                                                                    "          context.record.endEdit();",
+                                                                    "        }",
+                                                                    "        else",
+                                                                    "          Ext.Msg.show",
+                                                                    "          (",
+                                                                    "            {",
+                                                                    "              title: 'ERROR',",
+                                                                    "              msg: 'Ha ocurrido un error al grabar',",
+                                                                    "              icon: Ext.Msg.ERROR,",
+                                                                    "              buttons: Ext.Msg.OK",
+                                                                    "            }",
+                                                                    "          );",
+                                                                    "      }",
+                                                                    "    }",
+                                                                    "  );",
+                                                                    "}"
+                                                                ],
+                                                                "name": "edit",
+                                                                "scope": "me"
+                                                            },
+                                                            "configAlternates": {
+                                                                "fn": "string",
+                                                                "implHandler": "code",
+                                                                "name": "string",
+                                                                "scope": "string"
+                                                            },
+                                                            "name": "onCellEditingEdit",
+                                                            "designerId": "5c3ccac2-d8ef-41c3-be47-83c33c4f4edf"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Ext.panel.Panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "container|align": "stretch",
+                                        "layout": "vbox",
+                                        "layout|flex": 1,
+                                        "layout|region": "center"
+                                    },
+                                    "configAlternates": {
+                                        "container|align": "string",
+                                        "layout": "string",
+                                        "layout|flex": "number",
+                                        "layout|region": "string"
+                                    },
+                                    "name": "MyPanel4",
+                                    "designerId": "dd5f39d9-6a39-4f84-957b-d528bccdc2cf",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.form.Panel",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "bodyPadding": 5,
+                                                "designer|uiInterfaceName": "default-framed",
+                                                "fieldDefaults": [
+                                                    "{",
+                                                    "labelWidth: 120,",
+                                                    "labelAlign: 'right',",
+                                                    "msgTarget: 'side',",
+                                                    "anchor: '100%',",
+                                                    "margin: '0 0 5 0'",
+                                                    "}"
+                                                ],
+                                                "frame": true,
+                                                "id": "frmGeneral"
+                                            },
+                                            "configAlternates": {
+                                                "bodyPadding": "auto",
+                                                "designer|uiInterfaceName": "string",
+                                                "fieldDefaults": "object",
+                                                "frame": "boolean",
+                                                "id": "string"
+                                            },
+                                            "name": "MyForm",
+                                            "designerId": "ba693f52-df59-454e-844d-d50deda9d350",
+                                            "cn": [
+                                                {
+                                                    "type": "Ext.toolbar.Toolbar",
+                                                    "reference": {
+                                                        "name": "dockedItems",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "dock": "top"
+                                                    },
+                                                    "configAlternates": {
+                                                        "dock": "string"
+                                                    },
+                                                    "name": "MyToolbar2",
+                                                    "designerId": "caa48af6-f4dc-464b-b3b1-c2d38bccce6f",
+                                                    "cn": [
+                                                        {
+                                                            "type": "Ext.button.Button",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "iconCls": "x-fa fa-database",
+                                                                "id": "btnUpBDD",
+                                                                "layout|flex": null,
+                                                                "text": "Upload BDD"
+                                                            },
+                                                            "configAlternates": {
+                                                                "iconCls": "string",
+                                                                "layout|flex": "number",
+                                                                "text": "string",
+                                                                "id": "string"
+                                                            },
+                                                            "name": "MyButton6",
+                                                            "designerId": "a8a6cf5e-673d-4ecd-ac40-46ac2ccb4330",
+                                                            "cn": [
+                                                                {
+                                                                    "type": "viewcontrollereventbinding",
+                                                                    "reference": {
+                                                                        "name": "listeners",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "fn": "onBtnUpBDDClick",
+                                                                        "implHandler": [
+                                                                            "var form = Ext.getCmp('frmGeneral').getForm();",
+                                                                            "if (form.isValid())",
+                                                                            "{",
+                                                                            "  form.submit({",
+                                                                            "    url: '../servidor/upaupa/subearchivo',",
+                                                                            "    method : 'POST',",
+                                                                            "    headers : 'multipart/form-data',",
+                                                                            "    waitMsg: 'Cargando...',",
+                                                                            "    success: function(response, options)",
+                                                                            "    {",
+                                                                            "      Ext.getCmp('grdInformacion').getStore().load();",
+                                                                            "      Ext.getCmp('grdArchivosXAplicacion').getStore().load();",
+                                                                            "    },",
+                                                                            "    failure: function(fp, action)",
+                                                                            "    {",
+                                                                            "      var responseData = Ext.JSON.decode(action.response.responseText);",
+                                                                            "      var error = responseData.error;",
+                                                                            "      Ext.Msg.show",
+                                                                            "      (",
+                                                                            "        {",
+                                                                            "          title: 'ERROR',",
+                                                                            "          msg: error,",
+                                                                            "          icon: Ext.Msg.ERROR,",
+                                                                            "          buttons: Ext.Msg.OK",
+                                                                            "        }",
+                                                                            "      );",
+                                                                            "    }",
+                                                                            "  });",
+                                                                            "}",
+                                                                            "else",
+                                                                            "{",
+                                                                            "  Ext.Msg.show",
+                                                                            "  (",
+                                                                            "    {",
+                                                                            "      title: 'ERROR',",
+                                                                            "      msg: 'Debe escoger un archivo',",
+                                                                            "      icon: Ext.Msg.ERROR,",
+                                                                            "      buttons: Ext.Msg.OK",
+                                                                            "    }",
+                                                                            "  );",
+                                                                            "}"
+                                                                        ],
+                                                                        "name": "click",
+                                                                        "scope": "me"
+                                                                    },
+                                                                    "configAlternates": {
+                                                                        "fn": "string",
+                                                                        "implHandler": "code",
+                                                                        "name": "string",
+                                                                        "scope": "string"
+                                                                    },
+                                                                    "name": "onBtnUpBDDClick",
+                                                                    "designerId": "67bd4a51-b9fd-426a-b6a4-4b4e6340c18c"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "Ext.button.Button",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "iconCls": "x-fa fa-upload",
+                                                                "id": "btnSubeFTP",
+                                                                "layout|flex": null,
+                                                                "text": "Upload FTP"
+                                                            },
+                                                            "configAlternates": {
+                                                                "iconCls": "string",
+                                                                "layout|flex": "number",
+                                                                "text": "string",
+                                                                "id": "string"
+                                                            },
+                                                            "name": "MyButton7",
+                                                            "designerId": "657da19f-082f-4275-b982-17250bd95bb8",
+                                                            "cn": [
+                                                                {
+                                                                    "type": "viewcontrollereventbinding",
+                                                                    "reference": {
+                                                                        "name": "listeners",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "fn": "onBtnSubeFTPClick",
+                                                                        "implHandler": [
+                                                                            "this.subeFTP();"
+                                                                        ],
+                                                                        "name": "click",
+                                                                        "scope": "me"
+                                                                    },
+                                                                    "configAlternates": {
+                                                                        "fn": "string",
+                                                                        "implHandler": "code",
+                                                                        "name": "string",
+                                                                        "scope": "string"
+                                                                    },
+                                                                    "name": "onBtnSubeFTPClick",
+                                                                    "designerId": "ad9d6a2f-600f-46d0-95e9-c12f63d5601c"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "Ext.button.Button",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "hidden": true,
+                                                                "iconCls": "icon-load",
+                                                                "id": "btnLoading",
+                                                                "layout|flex": null
+                                                            },
+                                                            "configAlternates": {
+                                                                "hidden": "boolean",
+                                                                "iconCls": "string",
+                                                                "id": "string",
+                                                                "layout|flex": "number"
+                                                            },
+                                                            "name": "MyButton",
+                                                            "designerId": "29f3ea58-e2e5-428d-85d8-2d13424e5d45"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "Ext.form.FieldSet",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "name": "MyFieldSet",
+                                                    "designerId": "87bfeaef-1fbc-49bf-83c0-f0799be3bced",
+                                                    "cn": [
+                                                        {
+                                                            "type": "Ext.form.field.File",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "allowBlank": false,
+                                                                "fieldLabel": "Archivo",
+                                                                "layout|anchor": "100%",
+                                                                "name": "archivo"
+                                                            },
+                                                            "configAlternates": {
+                                                                "fieldLabel": "string",
+                                                                "layout|anchor": "string",
+                                                                "allowBlank": "boolean",
+                                                                "name": "string"
+                                                            },
+                                                            "name": "MyFileUpload",
+                                                            "designerId": "c9d28c96-c12a-4f93-a1a2-99e8decf2037"
+                                                        },
+                                                        {
+                                                            "type": "Ext.form.FieldContainer",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "container|align": "stretch",
+                                                                "fieldLabel": "Directorio local",
+                                                                "height": 32,
+                                                                "hidden": true,
+                                                                "layout": "hbox"
+                                                            },
+                                                            "configAlternates": {
+                                                                "container|align": "string",
+                                                                "fieldLabel": "string",
+                                                                "height": "auto",
+                                                                "layout": "string",
+                                                                "hidden": "boolean"
+                                                            },
+                                                            "name": "MyFieldContainer",
+                                                            "designerId": "e81a6021-0e74-44a3-ab79-0c74b4c27af8",
+                                                            "cn": [
+                                                                {
+                                                                    "type": "Ext.form.field.Text",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "flex": 1,
+                                                                        "name": "directorio"
+                                                                    },
+                                                                    "configAlternates": {
+                                                                        "flex": "number",
+                                                                        "name": "string"
+                                                                    },
+                                                                    "name": "MyTextField2",
+                                                                    "designerId": "fc86dca0-e8ab-44da-b4db-8c428f24c6c9"
+                                                                },
+                                                                {
+                                                                    "type": "Ext.button.Button",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "iconCls": "x-fa fa-check"
+                                                                    },
+                                                                    "configAlternates": {
+                                                                        "iconCls": "string"
+                                                                    },
+                                                                    "name": "MyButton11",
+                                                                    "designerId": "38e86e43-4492-40d6-b46d-f0654ea1e221",
+                                                                    "cn": [
+                                                                        {
+                                                                            "type": "viewcontrollereventbinding",
+                                                                            "reference": {
+                                                                                "name": "listeners",
+                                                                                "type": "array"
+                                                                            },
+                                                                            "codeClass": null,
+                                                                            "userConfig": {
+                                                                                "fn": "onBtnSaveDirClick",
+                                                                                "implHandler": [
+                                                                                    "Ext.Ajax.request",
+                                                                                    "(",
+                                                                                    "  {",
+                                                                                    "    url: '../servidor/upaupa/savedir',",
+                                                                                    "    // A continuación los parámetros",
+                                                                                    "    params: {",
+                                                                                    "      directorio: Ext.getCmp('frmGeneral').getForm().findField('directorio').getValue()",
+                                                                                    "    },",
+                                                                                    "    callback: function(obj, success, response)",
+                                                                                    "    {",
+                                                                                    "      if(success)",
+                                                                                    "      {",
+                                                                                    "        var responseData = Ext.JSON.decode(response.responseText);",
+                                                                                    "        if(responseData.success)",
+                                                                                    "        {",
+                                                                                    "          Ext.toast({",
+                                                                                    "            html: '¡Directorio grabado!',",
+                                                                                    "            closable: false,",
+                                                                                    "            align: 't',",
+                                                                                    "            slideDUration: 200,",
+                                                                                    "            maxWidth: 400",
+                                                                                    "          });",
+                                                                                    "        }",
+                                                                                    "        else",
+                                                                                    "        {",
+                                                                                    "         Ext.toast({",
+                                                                                    "            html: '¡HA OCURRIDO UN ERROR!',",
+                                                                                    "            closable: false,",
+                                                                                    "            align: 't',",
+                                                                                    "            slideDUration: 200,",
+                                                                                    "            maxWidth: 400",
+                                                                                    "          });",
+                                                                                    "        }",
+                                                                                    "      }",
+                                                                                    "      else",
+                                                                                    "        geco.controller.Funciones.showMessg('ERROR', LANG.msError001);",
+                                                                                    "    }",
+                                                                                    "  }",
+                                                                                    ");"
+                                                                                ],
+                                                                                "name": "click",
+                                                                                "scope": "me"
+                                                                            },
+                                                                            "configAlternates": {
+                                                                                "fn": "string",
+                                                                                "implHandler": "code",
+                                                                                "name": "string",
+                                                                                "scope": "string"
+                                                                            },
+                                                                            "name": "onBtnSaveDirClick",
+                                                                            "designerId": "6958ddb9-f46e-46fc-a5a5-5314e9f619f8"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "Ext.form.field.Text",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "fieldLabel": "Descripción",
+                                                                "layout|anchor": "100%",
+                                                                "name": "descripcion_upload"
+                                                            },
+                                                            "configAlternates": {
+                                                                "fieldLabel": "string",
+                                                                "layout|anchor": "string",
+                                                                "name": "string"
+                                                            },
+                                                            "name": "MyTextField",
+                                                            "designerId": "b475b5a5-d42e-4639-9a21-cdb3f741f0a4"
+                                                        },
+                                                        {
+                                                            "type": "Ext.form.field.Text",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "fieldLabel": "Última subida",
+                                                                "layout|anchor": "100%",
+                                                                "name": "fecha"
+                                                            },
+                                                            "configAlternates": {
+                                                                "fieldLabel": "string",
+                                                                "layout|anchor": "string",
+                                                                "name": "string"
+                                                            },
+                                                            "name": "MyTextField1",
+                                                            "designerId": "002e8b29-95fa-4016-90b1-4b27b544a5d8"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Ext.grid.Panel",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "columnLines": true,
+                                                "designer|uiInterfaceName": "default-framed",
+                                                "forceFit": true,
+                                                "frame": true,
+                                                "id": "grdInformacion",
+                                                "layout|flex": 1,
+                                                "store": "InformacionStore"
+                                            },
+                                            "configAlternates": {
+                                                "designer|uiInterfaceName": "string",
+                                                "frame": "boolean",
+                                                "layout|flex": "number",
+                                                "forceFit": "boolean",
+                                                "columnLines": "boolean",
+                                                "id": "string",
+                                                "store": "store"
+                                            },
+                                            "name": "MyGridPanel2",
+                                            "designerId": "6f3f4179-4b15-407c-8de1-34553b58eb6e",
+                                            "cn": [
+                                                {
+                                                    "type": "Ext.grid.column.Column",
+                                                    "reference": {
+                                                        "name": "columns",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "dataIndex": "estado",
+                                                        "text": "Estado"
+                                                    },
+                                                    "configAlternates": {
+                                                        "dataIndex": "datafield",
+                                                        "text": "string"
+                                                    },
+                                                    "name": "MyColumn2",
+                                                    "designerId": "4576ee06-a4a6-4437-96d8-b9200eb2698e"
+                                                },
+                                                {
+                                                    "type": "Ext.grid.column.Number",
+                                                    "reference": {
+                                                        "name": "columns",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "dataIndex": "cuantos",
+                                                        "text": "Cuantos"
+                                                    },
+                                                    "configAlternates": {
+                                                        "dataIndex": "datafield",
+                                                        "text": "string"
+                                                    },
+                                                    "name": "MyNumberColumn2",
+                                                    "designerId": "5da49aa8-5122-4b88-850c-83a7097f17a1"
+                                                },
+                                                {
+                                                    "type": "Ext.toolbar.Toolbar",
+                                                    "reference": {
+                                                        "name": "dockedItems",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "dock": "top"
+                                                    },
+                                                    "configAlternates": {
+                                                        "dock": "string"
+                                                    },
+                                                    "name": "MyToolbar3",
+                                                    "designerId": "fb5b3881-80ec-4007-8213-fd4c0f65bd13",
+                                                    "cn": [
+                                                        {
+                                                            "type": "Ext.button.Button",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "iconCls": "x-fa fa-sync-alt",
+                                                                "layout|flex": null,
+                                                                "text": "Refrescar"
+                                                            },
+                                                            "configAlternates": {
+                                                                "iconCls": "string",
+                                                                "layout|flex": "number",
+                                                                "text": "string"
+                                                            },
+                                                            "name": "MyButton8",
+                                                            "designerId": "80fb3060-e22e-447c-b901-e36a381769c5",
+                                                            "cn": [
+                                                                {
+                                                                    "type": "viewcontrollereventbinding",
+                                                                    "reference": {
+                                                                        "name": "listeners",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "fn": "onBtnRefrescaInfoClick",
+                                                                        "implHandler": [
+                                                                            "Ext.getCmp('grdInformacion').getStore().load();"
+                                                                        ],
+                                                                        "name": "click",
+                                                                        "scope": "me"
+                                                                    },
+                                                                    "configAlternates": {
+                                                                        "fn": "string",
+                                                                        "implHandler": "code",
+                                                                        "name": "string",
+                                                                        "scope": "string"
+                                                                    },
+                                                                    "name": "onBtnRefrescaInfoClick",
+                                                                    "designerId": "bce84b55-5f30-4999-b620-d3c19cbde794"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Ext.grid.Panel",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "columnLines": true,
+                                                "designer|uiInterfaceName": "default-framed",
+                                                "forceFit": true,
+                                                "frame": true,
+                                                "id": "grdArchivosXAplicacion",
+                                                "layout|flex": 1,
+                                                "store": "ArchivosXAplicacionStore"
+                                            },
+                                            "configAlternates": {
+                                                "designer|uiInterfaceName": "string",
+                                                "frame": "boolean",
+                                                "layout|flex": "number",
+                                                "forceFit": "boolean",
+                                                "columnLines": "boolean",
+                                                "id": "string",
+                                                "store": "store"
+                                            },
+                                            "name": "MyGridPanel3",
+                                            "designerId": "8fbaefc3-65a0-4782-ac75-df8dbe6f95f7",
+                                            "cn": [
+                                                {
+                                                    "type": "Ext.grid.column.Column",
+                                                    "reference": {
+                                                        "name": "columns",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "dataIndex": "dominio",
+                                                        "text": "Dominio"
+                                                    },
+                                                    "configAlternates": {
+                                                        "dataIndex": "datafield",
+                                                        "text": "string"
+                                                    },
+                                                    "name": "MyColumn3",
+                                                    "designerId": "c08024f4-387f-40a2-9032-02208f9ec2d4"
+                                                },
+                                                {
+                                                    "type": "Ext.grid.column.Column",
+                                                    "reference": {
+                                                        "name": "columns",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "dataIndex": "aplicacion",
+                                                        "text": "Aplicación"
+                                                    },
+                                                    "configAlternates": {
+                                                        "dataIndex": "datafield",
+                                                        "text": "string"
+                                                    },
+                                                    "name": "MyColumn6",
+                                                    "designerId": "85870fb5-a3eb-4ca0-a6f1-bfa6e733c11b"
+                                                },
+                                                {
+                                                    "type": "Ext.grid.column.Number",
+                                                    "reference": {
+                                                        "name": "columns",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "dataIndex": "cuantos",
+                                                        "text": "Cuantos"
+                                                    },
+                                                    "configAlternates": {
+                                                        "dataIndex": "datafield",
+                                                        "text": "string"
+                                                    },
+                                                    "name": "MyNumberColumn3",
+                                                    "designerId": "f3922b01-88ca-41da-8408-8b98479bdb35"
+                                                },
+                                                {
+                                                    "type": "Ext.toolbar.Toolbar",
+                                                    "reference": {
+                                                        "name": "dockedItems",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "dock": "top"
+                                                    },
+                                                    "configAlternates": {
+                                                        "dock": "string"
+                                                    },
+                                                    "name": "MyToolbar4",
+                                                    "designerId": "71effb5d-e13d-4ff7-813a-81f627f6a8a4",
+                                                    "cn": [
+                                                        {
+                                                            "type": "Ext.button.Button",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "iconCls": "x-fa fa-sync-alt",
+                                                                "layout|flex": null,
+                                                                "text": "Refrescar"
+                                                            },
+                                                            "configAlternates": {
+                                                                "iconCls": "string",
+                                                                "layout|flex": "number",
+                                                                "text": "string"
+                                                            },
+                                                            "name": "MyButton9",
+                                                            "designerId": "d5ff7a31-d82a-4900-ba76-4e37bd63ff00",
+                                                            "cn": [
+                                                                {
+                                                                    "type": "viewcontrollereventbinding",
+                                                                    "reference": {
+                                                                        "name": "listeners",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "fn": "onBtnRefrescaArchivosXAplicacionClick",
+                                                                        "implHandler": [
+                                                                            "Ext.getCmp('grdArchivosXAplicacion').getStore().load();"
+                                                                        ],
+                                                                        "name": "click",
+                                                                        "scope": "me"
+                                                                    },
+                                                                    "configAlternates": {
+                                                                        "fn": "string",
+                                                                        "implHandler": "code",
+                                                                        "name": "string",
+                                                                        "scope": "string"
+                                                                    },
+                                                                    "name": "onBtnRefrescaArchivosXAplicacionClick",
+                                                                    "designerId": "c8eb5953-fde7-44cf-b573-4fd92c1c3318"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "Ext.button.Button",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "iconCls": "x-fa fa-eye",
+                                                                "layout|flex": null,
+                                                                "text": "Ver archivos"
+                                                            },
+                                                            "configAlternates": {
+                                                                "iconCls": "string",
+                                                                "layout|flex": "number",
+                                                                "text": "string"
+                                                            },
+                                                            "name": "MyButton10",
+                                                            "designerId": "6fa97497-19a0-4aef-82f9-fc951adffb21",
+                                                            "cn": [
+                                                                {
+                                                                    "type": "viewcontrollereventbinding",
+                                                                    "reference": {
+                                                                        "name": "listeners",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "fn": "onBtnVerArchivosClick",
+                                                                        "implHandler": [
+                                                                            "var selection = Ext.getCmp('grdArchivosXAplicacion').getSelectionModel().getSelection();",
+                                                                            "if(selection.length === 1){",
+                                                                            "  Upa_Upa.controller.funciones.showWin('winArchivos', {idFiltro: selection[0].data.id_aplicacion});",
+                                                                            "}"
+                                                                        ],
+                                                                        "name": "click",
+                                                                        "scope": "me"
+                                                                    },
+                                                                    "configAlternates": {
+                                                                        "fn": "string",
+                                                                        "implHandler": "code",
+                                                                        "name": "string",
+                                                                        "scope": "string"
+                                                                    },
+                                                                    "name": "onBtnVerArchivosClick",
+                                                                    "designerId": "f9620198-8afc-4578-9f2c-71129dce9132"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout": "fit",
+                        "title": "Genera Script"
+                    },
+                    "configAlternates": {
+                        "title": "string",
+                        "layout": "string"
+                    },
+                    "name": "MyPanel1",
+                    "designerId": "2ad76455-7d0f-49a0-9389-deb12dcc0c7d",
+                    "cn": [
+                        {
+                            "type": "Ext.tab.Tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "name": "TabConfig1",
+                            "designerId": "ed5eae3b-4cc9-4334-9bc3-efe63be0dbf4"
+                        },
+                        {
+                            "type": "Ext.panel.Panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout": "border"
+                            },
+                            "configAlternates": {
+                                "layout": "string"
+                            },
+                            "name": "MyPanel2",
+                            "designerId": "7aa1fad8-ba29-46ab-b79c-3b47503137c0",
+                            "cn": [
+                                {
+                                    "type": "Ext.panel.Panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "container|align": "stretch",
+                                        "designer|uiInterfaceName": "default-framed",
+                                        "flex": 1,
+                                        "frame": true,
+                                        "layout": "vbox",
+                                        "layout|region": "west",
+                                        "title": "Bases de datos",
+                                        "width": 150
+                                    },
+                                    "configAlternates": {
+                                        "container|align": "string",
+                                        "designer|uiInterfaceName": "string",
+                                        "flex": "number",
+                                        "frame": "boolean",
+                                        "layout": "string",
+                                        "layout|region": "string",
+                                        "title": "string",
+                                        "width": "auto"
+                                    },
+                                    "name": "MyPanel7",
+                                    "designerId": "e43bfa79-be9f-44aa-a192-bbd2a7aa3e73",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.grid.Panel",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "columnLines": true,
+                                                "forceFit": true,
+                                                "id": "grdAplicacionesScript",
+                                                "layout|flex": 1,
+                                                "store": "AplicacionesScriptStore"
+                                            },
+                                            "configAlternates": {
+                                                "columnLines": "boolean",
+                                                "forceFit": "boolean",
+                                                "id": "string",
+                                                "layout|flex": "number",
+                                                "store": "store"
+                                            },
+                                            "name": "MyGridPanel4",
+                                            "designerId": "2642b3e2-2c47-4ccd-ac76-270459513e39",
+                                            "cn": [
+                                                {
+                                                    "type": "Ext.grid.column.Column",
+                                                    "reference": {
+                                                        "name": "columns",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "dataIndex": "bdd_aplicacion",
+                                                        "text": "Aplicación"
+                                                    },
+                                                    "configAlternates": {
+                                                        "dataIndex": "datafield",
+                                                        "text": "string"
+                                                    },
+                                                    "name": "MyColumn7",
+                                                    "designerId": "3650a5ce-de7d-43ca-8682-aeec33948959"
+                                                },
+                                                {
+                                                    "type": "Ext.grid.column.Column",
+                                                    "reference": {
+                                                        "name": "columns",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "dataIndex": "estado_bdd_aplicacion",
+                                                        "text": "Estado"
+                                                    },
+                                                    "configAlternates": {
+                                                        "dataIndex": "datafield",
+                                                        "text": "string"
+                                                    },
+                                                    "name": "MyColumn8",
+                                                    "designerId": "81c3d185-e15c-454a-b446-e0fecab85bad",
+                                                    "cn": [
+                                                        {
+                                                            "type": "Ext.form.field.ComboBox",
+                                                            "reference": {
+                                                                "name": "editor",
+                                                                "type": "object"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "displayField": "nombre",
+                                                                "store": [
+                                                                    "[",
+                                                                    "  {codigo: 'A', nombre: 'Activo'},",
+                                                                    "  {codigo: 'I', nombre: 'Inactivo'}",
+                                                                    "]"
+                                                                ],
+                                                                "valueField": "codigo"
+                                                            },
+                                                            "configAlternates": {
+                                                                "store": "array",
+                                                                "displayField": "datafield",
+                                                                "valueField": "datafield"
+                                                            },
+                                                            "name": "MyComboBox1",
+                                                            "designerId": "ea1ab885-9c6b-4ddd-945b-5c1d62bd21f1"
+                                                        },
+                                                        {
+                                                            "type": "fixedfunction",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|params": [
+                                                                    "value",
+                                                                    "metaData",
+                                                                    "record",
+                                                                    "rowIndex",
+                                                                    "colIndex",
+                                                                    "store",
+                                                                    "view"
+                                                                ],
+                                                                "fn": "renderer",
+                                                                "implHandler": [
+                                                                    "if(value === 'A')",
+                                                                    "  return 'Activo';",
+                                                                    "else",
+                                                                    "  return '<span style=\"color:#FF0000\">Inactivo</span>';"
+                                                                ]
+                                                            },
+                                                            "configAlternates": {
+                                                                "designer|params": "typedarray",
+                                                                "fn": "string",
+                                                                "implHandler": "code"
+                                                            },
+                                                            "name": "renderer",
+                                                            "designerId": "79958d47-d052-4498-b309-e084551663a9"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "Ext.view.Table",
+                                                    "reference": {
+                                                        "name": "viewConfig",
+                                                        "type": "object"
+                                                    },
+                                                    "codeClass": null,
+                                                    "name": "MyTable4",
+                                                    "designerId": "47fa965f-ffa8-4367-b399-38743ce6f0ef"
+                                                },
+                                                {
+                                                    "type": "Ext.grid.plugin.CellEditing",
+                                                    "reference": {
+                                                        "name": "plugins",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "name": "MyCellEditingPlugin1",
+                                                    "designerId": "08290ce5-2184-46aa-96f4-607658ee166e",
+                                                    "cn": [
+                                                        {
+                                                            "type": "viewcontrollereventbinding",
+                                                            "reference": {
+                                                                "name": "listeners",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "fn": "onCellEditingEdit1",
+                                                                "implHandler": [
+                                                                    "if(context.originalValue !== context.value && (context.value !== null))",
+                                                                    "{",
+                                                                    "  Ext.Ajax.request",
+                                                                    "  (",
+                                                                    "    {",
+                                                                    "      url: '../servidor/upaupa/saveapp',",
+                                                                    "      // A continuación los parámetros",
+                                                                    "      params: {",
+                                                                    "        data: Ext.JSON.encode(context.record.data)",
+                                                                    "      },",
+                                                                    "      callback: function(obj, success, response)",
+                                                                    "      {",
+                                                                    "        if(success)",
+                                                                    "        {",
+                                                                    "          var responseData = Ext.JSON.decode(response.responseText);",
+                                                                    "          var store = editor.grid.getStore();",
+                                                                    "          //Comita los cambios",
+                                                                    "          store.commitChanges();",
+                                                                    "          //Coloca el nuevo id en la columna correspondiente",
+                                                                    "          context.record.commit();",
+                                                                    "        }",
+                                                                    "        else",
+                                                                    "          Ext.Msg.show",
+                                                                    "          (",
+                                                                    "            {",
+                                                                    "              title: 'ERROR',",
+                                                                    "              msg: 'Ha ocurrido un error al grabar',",
+                                                                    "              icon: Ext.Msg.ERROR,",
+                                                                    "              buttons: Ext.Msg.OK",
+                                                                    "            }",
+                                                                    "          );",
+                                                                    "      }",
+                                                                    "    }",
+                                                                    "  );",
+                                                                    "}"
+                                                                ],
+                                                                "name": "edit",
+                                                                "scope": "me"
+                                                            },
+                                                            "configAlternates": {
+                                                                "fn": "string",
+                                                                "implHandler": "code",
+                                                                "name": "string",
+                                                                "scope": "string"
+                                                            },
+                                                            "name": "onCellEditingEdit1",
+                                                            "designerId": "aae5ed34-e7cc-4165-8928-3b9c86e99500"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "Ext.toolbar.Toolbar",
+                                                    "reference": {
+                                                        "name": "dockedItems",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "dock": "top"
+                                                    },
+                                                    "configAlternates": {
+                                                        "dock": "string"
+                                                    },
+                                                    "name": "MyToolbar1",
+                                                    "designerId": "17268077-831d-48a9-809e-53367f5f4d1f",
+                                                    "cn": [
+                                                        {
+                                                            "type": "Ext.button.Button",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "iconCls": "x-fas fa-check",
+                                                                "layout|flex": null,
+                                                                "text": "Activar"
+                                                            },
+                                                            "configAlternates": {
+                                                                "iconCls": "string",
+                                                                "layout|flex": "number",
+                                                                "text": "string"
+                                                            },
+                                                            "name": "MyButton3",
+                                                            "designerId": "ad602992-3b69-4054-b173-ed3c8159fd02",
+                                                            "cn": [
+                                                                {
+                                                                    "type": "viewcontrollereventbinding",
+                                                                    "reference": {
+                                                                        "name": "listeners",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "fn": "onBtnActivarBddClick",
+                                                                        "implHandler": [
+                                                                            "var me = this;",
+                                                                            "",
+                                                                            "Ext.Msg.show",
+                                                                            "(",
+                                                                            "  {",
+                                                                            "    title: 'Pregunta',",
+                                                                            "    msg: '¿Realmente desea activar todas las bases de datos?',",
+                                                                            "    icon: Ext.Msg.QUESTION,",
+                                                                            "    buttons: Ext.Msg.YESNOCANCEL,",
+                                                                            "    fn: function(btn)",
+                                                                            "    {",
+                                                                            "      if(btn === 'yes')",
+                                                                            "        me.cambiaEstado('A');",
+                                                                            "    }",
+                                                                            "  }",
+                                                                            ");"
+                                                                        ],
+                                                                        "name": "click",
+                                                                        "scope": "me"
+                                                                    },
+                                                                    "configAlternates": {
+                                                                        "fn": "string",
+                                                                        "implHandler": "code",
+                                                                        "name": "string",
+                                                                        "scope": "string"
+                                                                    },
+                                                                    "name": "onBtnActivarBddClick",
+                                                                    "designerId": "79deee48-4a9c-4aac-b92a-e4f68facf0ec"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "Ext.button.Button",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "iconCls": "x-fa fa-times",
+                                                                "layout|flex": null,
+                                                                "text": "Inactivar"
+                                                            },
+                                                            "configAlternates": {
+                                                                "iconCls": "string",
+                                                                "layout|flex": "number",
+                                                                "text": "string"
+                                                            },
+                                                            "name": "MyButton4",
+                                                            "designerId": "517406d1-c950-4e5f-8b9c-73a62325267b",
+                                                            "cn": [
+                                                                {
+                                                                    "type": "viewcontrollereventbinding",
+                                                                    "reference": {
+                                                                        "name": "listeners",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "fn": "onBtnInactivarBddClick",
+                                                                        "implHandler": [
+                                                                            "var me = this;",
+                                                                            "",
+                                                                            "Ext.Msg.show",
+                                                                            "(",
+                                                                            "  {",
+                                                                            "    title: 'Pregunta',",
+                                                                            "    msg: '¿Realmente desea inactivar todas las bases de datos?',",
+                                                                            "    icon: Ext.Msg.QUESTION,",
+                                                                            "    buttons: Ext.Msg.YESNOCANCEL,",
+                                                                            "    fn: function(btn)",
+                                                                            "    {",
+                                                                            "      if(btn === 'yes')",
+                                                                            "        me.cambiaEstado('I');",
+                                                                            "    }",
+                                                                            "  }",
+                                                                            ");"
+                                                                        ],
+                                                                        "name": "click",
+                                                                        "scope": "me"
+                                                                    },
+                                                                    "configAlternates": {
+                                                                        "fn": "string",
+                                                                        "implHandler": "code",
+                                                                        "name": "string",
+                                                                        "scope": "string"
+                                                                    },
+                                                                    "name": "onBtnInactivarBddClick",
+                                                                    "designerId": "a8702ca1-b623-4884-9add-843401829b64"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Ext.form.Panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "container|align": "stretch",
+                                        "designer|uiInterfaceName": "default-framed",
+                                        "flex": 1.5,
+                                        "frame": true,
+                                        "id": "frmScript",
+                                        "layout": "vbox",
+                                        "layout|region": "center",
+                                        "title": "Script generado"
+                                    },
+                                    "configAlternates": {
+                                        "flex": "number",
+                                        "layout|region": "string",
+                                        "title": "string",
+                                        "container|align": "string",
+                                        "designer|uiInterfaceName": "string",
+                                        "frame": "boolean",
+                                        "id": "string",
+                                        "layout": "string"
+                                    },
+                                    "name": "MyForm1",
+                                    "designerId": "8bd8b6b4-de03-4c35-8d87-6413a9590730",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.toolbar.Toolbar",
+                                            "reference": {
+                                                "name": "dockedItems",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "dock": "top",
+                                                "layout|flex": 1
+                                            },
+                                            "configAlternates": {
+                                                "dock": "string",
+                                                "layout|flex": "number"
+                                            },
+                                            "name": "MyToolbar",
+                                            "designerId": "22416812-a9ce-4c21-a167-9113f4e9bc88",
+                                            "cn": [
+                                                {
+                                                    "type": "Ext.button.Button",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "iconCls": "x-fa fa-bolt",
+                                                        "layout|flex": null,
+                                                        "text": "Genera script"
+                                                    },
+                                                    "configAlternates": {
+                                                        "iconCls": "string",
+                                                        "layout|flex": "number",
+                                                        "text": "string"
+                                                    },
+                                                    "name": "MyButton1",
+                                                    "designerId": "0831161f-c5f2-4749-ba8d-b0abbbddc667",
+                                                    "cn": [
+                                                        {
+                                                            "type": "viewcontrollereventbinding",
+                                                            "reference": {
+                                                                "name": "listeners",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "fn": "onBtnGeneraScriptClick",
+                                                                "implHandler": [
+                                                                    "var form = Ext.getCmp('frmScript').getForm();",
+                                                                    "var script = form.findField('script_individual').getValue();",
+                                                                    "if(script !== '')",
+                                                                    "{",
+                                                                    "  Ext.Ajax.request",
+                                                                    "  (",
+                                                                    "    {",
+                                                                    "      url: '../servidor/upaupa/generascript',",
+                                                                    "      // A continuación los parámetros",
+                                                                    "      params: {",
+                                                                    "        script: script,",
+                                                                    "      },",
+                                                                    "      callback: function(obj, success, response)",
+                                                                    "      {",
+                                                                    "        if(success)",
+                                                                    "        {",
+                                                                    "          var responseData = Ext.JSON.decode(response.responseText);",
+                                                                    "          form.findField('script_generado').setValue(responseData.script);",
+                                                                    "        }",
+                                                                    "        else",
+                                                                    "          Ext.Msg.show",
+                                                                    "          (",
+                                                                    "            {",
+                                                                    "              title: 'ERROR',",
+                                                                    "              msg: 'Ha ocurrido un error al generar el script',",
+                                                                    "              icon: Ext.Msg.ERROR,",
+                                                                    "              buttons: Ext.Msg.OK",
+                                                                    "            }",
+                                                                    "          );",
+                                                                    "      }",
+                                                                    "    }",
+                                                                    "  );",
+                                                                    "}",
+                                                                    "else",
+                                                                    "  Ext.Msg.show",
+                                                                    "  (",
+                                                                    "    {",
+                                                                    "      title: 'ERROR',",
+                                                                    "      msg: 'Escriba un script individual',",
+                                                                    "      icon: Ext.Msg.ERROR,",
+                                                                    "      buttons: Ext.Msg.OK",
+                                                                    "    }",
+                                                                    "  );"
+                                                                ],
+                                                                "name": "click",
+                                                                "scope": "me"
+                                                            },
+                                                            "configAlternates": {
+                                                                "fn": "string",
+                                                                "implHandler": "code",
+                                                                "name": "string",
+                                                                "scope": "string"
+                                                            },
+                                                            "name": "onBtnGeneraScriptClick",
+                                                            "designerId": "f575243e-1bdc-425f-92a9-626f1363bf7b"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "Ext.button.Button",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "iconCls": "x-fa fa-eraser",
+                                                        "layout|flex": null,
+                                                        "text": "Limpiar script"
+                                                    },
+                                                    "configAlternates": {
+                                                        "iconCls": "string",
+                                                        "layout|flex": "number",
+                                                        "text": "string"
+                                                    },
+                                                    "name": "MyButton2",
+                                                    "designerId": "6e0958aa-754c-4cfc-93a4-e350873ef1c5",
+                                                    "cn": [
+                                                        {
+                                                            "type": "viewcontrollereventbinding",
+                                                            "reference": {
+                                                                "name": "listeners",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "fn": "onBtnLimpiarClick",
+                                                                "implHandler": [
+                                                                    "Ext.getCmp('frmScript').getForm().reset();"
+                                                                ],
+                                                                "name": "click",
+                                                                "scope": "me"
+                                                            },
+                                                            "configAlternates": {
+                                                                "fn": "string",
+                                                                "implHandler": "code",
+                                                                "name": "string",
+                                                                "scope": "string"
+                                                            },
+                                                            "name": "onBtnLimpiarClick",
+                                                            "designerId": "881cae03-72cc-45d5-9ab5-4200750d7c45"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Ext.form.field.TextArea",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "fieldLabel": "Script individual",
+                                                "flex": 0.5,
+                                                "labelAlign": "top",
+                                                "name": "script_individual",
+                                                "padding": 5
+                                            },
+                                            "configAlternates": {
+                                                "fieldLabel": "string",
+                                                "flex": "number",
+                                                "labelAlign": "string",
+                                                "name": "string",
+                                                "padding": "auto"
+                                            },
+                                            "name": "MyTextArea",
+                                            "designerId": "041b1c63-058f-4c8a-bbc8-be29a7b8d7ec"
+                                        },
+                                        {
+                                            "type": "Ext.form.field.TextArea",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "fieldLabel": "Script generado",
+                                                "flex": 1,
+                                                "labelAlign": "top",
+                                                "name": "script_generado",
+                                                "padding": 5
+                                            },
+                                            "configAlternates": {
+                                                "fieldLabel": "string",
+                                                "labelAlign": "string",
+                                                "padding": "auto",
+                                                "flex": "number",
+                                                "name": "string"
+                                            },
+                                            "name": "MyTextArea1",
+                                            "designerId": "76e05872-eea7-4666-b310-86797445098d"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "viewcontrollereventbinding",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onContainerAfterRender",
+                "implHandler": [
+                    "this.loadForm();",
+                    "Ext.getCmp('grdDominios').getStore().load();",
+                    "Ext.getCmp('grdInformacion').getStore().load();",
+                    "Ext.getCmp('grdArchivosXAplicacion').getStore().load();",
+                    "Ext.getCmp('grdAplicacionesScript').getStore().load();"
+                ],
+                "name": "afterrender",
+                "scope": "me"
+            },
+            "configAlternates": {
+                "fn": "string",
+                "implHandler": "code",
+                "name": "string",
+                "scope": "string"
+            },
+            "name": "onContainerAfterRender",
+            "designerId": "11024ba6-9e89-4a11-9461-eda5bc8da5c3"
+        }
+    ]
+}

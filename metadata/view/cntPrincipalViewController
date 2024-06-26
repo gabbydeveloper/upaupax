@@ -1,0 +1,182 @@
+{
+    "type": "Ext.app.ViewController",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "cntprincipal",
+        "designer|userClassName": "cntPrincipalViewController"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string"
+    },
+    "designerId": "69f76c2b-2887-477f-8198-1e216df92658",
+    "cn": [
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "loadForm",
+                "implHandler": [
+                    "//Carga datos",
+                    "Ext.Ajax.request",
+                    "(",
+                    "  {",
+                    "    url: '../servidor/upaupa/frmread',",
+                    "    callback: function(obj, success, response)",
+                    "    {",
+                    "      if(success)",
+                    "      {",
+                    "        var responseData = Ext.JSON.decode(response.responseText);",
+                    "        var forma = Ext.getCmp('frmGeneral').getForm();",
+                    "        forma.setValues(responseData.data);",
+                    "      }",
+                    "      else",
+                    "        geco.controller.Funciones.showMessg('ERROR', LANG.msError001);",
+                    "    }",
+                    "  }",
+                    ");"
+                ]
+            },
+            "configAlternates": {
+                "fn": "string",
+                "implHandler": "code"
+            },
+            "name": "loadForm",
+            "designerId": "1da6824b-b0d3-4795-85cd-f4abfe003f40"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "subeFTP",
+                "implHandler": [
+                    "var me = this;",
+                    "var descripcion = Ext.getCmp('frmGeneral').getForm().findField('descripcion_upload').getValue();",
+                    "if(descripcion !== '')",
+                    "{",
+                    "  Ext.getCmp('btnLoading').setVisible(true);",
+                    "  Ext.getCmp('btnUpBDD').setDisabled(true);",
+                    "  Ext.getCmp('btnSubeFTP').setDisabled(true);",
+                    "  Ext.getCmp('grdDominios').mask();",
+                    "  Ext.getCmp('grdAplicaciones').mask();",
+                    "  Ext.Ajax.request",
+                    "  (",
+                    "    {",
+                    "      url: '../servidor/upaupa/subeftp',",
+                    "      callback: function(obj, success, response)",
+                    "      {",
+                    "        Ext.getCmp('btnLoading').setVisible(false);",
+                    "        Ext.getCmp('btnUpBDD').setDisabled(false);",
+                    "        Ext.getCmp('btnSubeFTP').setDisabled(false);",
+                    "        Ext.getCmp('grdDominios').unmask();",
+                    "        Ext.getCmp('grdAplicaciones').unmask();",
+                    "        Ext.getCmp('grdInformacion').getStore().load();",
+                    "        Ext.getCmp('grdArchivosXAplicacion').getStore().load();",
+                    "        Ext.Ajax.request",
+                    "        (",
+                    "          {",
+                    "            url: '../servidor/upaupa/cuantospendientes',",
+                    "            params:",
+                    "            {",
+                    "              descripcion_subida: descripcion",
+                    "            },",
+                    "            callback: function(obj, success, response)",
+                    "            {",
+                    "              var responseData = Ext.util.JSON.decode(response.responseText);",
+                    "              if(responseData.cuantos > 0)",
+                    "                me.subeFTP();",
+                    "              else",
+                    "                Ext.getCmp('frmGeneral').getForm().findField('descripcion_upload').setValue('');",
+                    "            }",
+                    "          }",
+                    "        );",
+                    "      }",
+                    "    }",
+                    "  );",
+                    "}",
+                    "else",
+                    "  Ext.Msg.show",
+                    "  (",
+                    "    {",
+                    "      title: 'ERROR',",
+                    "      msg: 'Debe llenar la descripción de la subid actual',",
+                    "      icon: Ext.Msg.ERROR,",
+                    "      buttons: Ext.Msg.OK",
+                    "    }",
+                    "  );"
+                ]
+            },
+            "configAlternates": {
+                "fn": "string",
+                "implHandler": "code"
+            },
+            "name": "subeFTP",
+            "designerId": "741b8777-937f-4093-8f63-e54c8e6f2d3b"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|params": [
+                    "estado"
+                ],
+                "fn": "cambiaEstado",
+                "implHandler": [
+                    "Ext.Ajax.request",
+                    "(",
+                    "  {",
+                    "    url: '../servidor/upaupa/cambiaestadobdd',",
+                    "    // A continuación los parámetros",
+                    "    params: {",
+                    "      estado: estado",
+                    "    },",
+                    "    callback: function(obj, success, response)",
+                    "    {",
+                    "      if(success)",
+                    "      {",
+                    "        var responseData = Ext.JSON.decode(response.responseText);",
+                    "        Ext.getCmp('grdAplicacionesScript').getStore().load();",
+                    "        Ext.toast",
+                    "        (",
+                    "          {",
+                    "            html: 'Se ha cambiado el estado',",
+                    "            closable: false,",
+                    "            align: 't',",
+                    "            slideDUration: 200,",
+                    "            maxWidth: 400",
+                    "          }",
+                    "        );",
+                    "      }",
+                    "      else",
+                    "        geco.controller.Funciones.showMessg('ERROR', LANG.msError001);",
+                    "    }",
+                    "  }",
+                    ");"
+                ]
+            },
+            "configAlternates": {
+                "designer|params": "typedarray",
+                "fn": "string",
+                "implHandler": "code"
+            },
+            "name": "cambiaEstado",
+            "designerId": "bf5ffa40-f322-42dc-b931-6ee46cc86f03"
+        }
+    ]
+}

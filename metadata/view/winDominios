@@ -1,0 +1,344 @@
+{
+    "type": "Ext.window.Window",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "winDominios",
+        "designer|userClassName": "winDominios",
+        "height": 371,
+        "id": "winDominios",
+        "layout": "fit",
+        "resizable": false,
+        "title": "Dominios",
+        "width": 513
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "id": "string",
+        "layout": "string",
+        "resizable": "boolean",
+        "title": "string",
+        "width": "auto"
+    },
+    "name": "MyWindow",
+    "designerId": "1bd6662a-11b0-456b-b352-df06f9251cee",
+    "viewControllerInstanceId": "d89a0c00-a7d1-456e-9d89-dd2957099529",
+    "viewModelInstanceId": "f3bda2d1-22dc-4df1-91aa-3c83efdd1e1f",
+    "cn": [
+        {
+            "type": "Ext.form.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "bodyPadding": 5,
+                "fieldDefaults": [
+                    "{",
+                    "  labelWidth: 120,",
+                    "  labelAlign: 'right'",
+                    "}"
+                ],
+                "id": "frmDominios",
+                "layout": "fit"
+            },
+            "configAlternates": {
+                "bodyPadding": "auto",
+                "fieldDefaults": "object",
+                "id": "string",
+                "layout": "string"
+            },
+            "name": "MyForm2",
+            "designerId": "e6bebd28-db66-4efa-9c2b-26232d6fc76a",
+            "cn": [
+                {
+                    "type": "Ext.toolbar.Toolbar",
+                    "reference": {
+                        "name": "dockedItems",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dock": "top"
+                    },
+                    "configAlternates": {
+                        "dock": "string"
+                    },
+                    "name": "MyToolbar6",
+                    "designerId": "753e1bd2-6308-4c13-ba56-e79e6b7ee6f7",
+                    "cn": [
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "iconCls": "x-fa fa-save",
+                                "layout|flex": null,
+                                "text": "Grabar"
+                            },
+                            "configAlternates": {
+                                "iconCls": "string",
+                                "layout|flex": "number",
+                                "text": "string"
+                            },
+                            "name": "MyButton13",
+                            "designerId": "4a1a5892-e66c-485a-870d-fc9018a992a8",
+                            "cn": [
+                                {
+                                    "type": "viewcontrollereventbinding",
+                                    "reference": {
+                                        "name": "listeners",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fn": "onBtnGrabarClick",
+                                        "implHandler": [
+                                            "const forma = Ext.getCmp('frmDominios').getForm();",
+                                            "const grid = Ext.getCmp('grdDominios');",
+                                            "",
+                                            "",
+                                            "if(forma.isValid()){",
+                                            "  Ext.Ajax.request",
+                                            "  (",
+                                            "    {",
+                                            "      url: '../servidor/upaupa/savedomain',",
+                                            "      // A continuación los parámetros",
+                                            "      params: {",
+                                            "        data: Ext.JSON.encode(forma.getValues())",
+                                            "      },",
+                                            "      callback: function(obj, success, response)",
+                                            "      {",
+                                            "        if(success)",
+                                            "        {",
+                                            "          const res = Ext.JSON.decode(response.responseText);",
+                                            "          if(res.success){",
+                                            "            grid.getStore().load();",
+                                            "          }",
+                                            "        }",
+                                            "        else",
+                                            "          Ext.Msg.show",
+                                            "          (",
+                                            "            {",
+                                            "              title: 'ERROR',",
+                                            "              msg: 'Ha ocurrido un error al grabar',",
+                                            "              icon: Ext.Msg.ERROR,",
+                                            "              buttons: Ext.Msg.OK",
+                                            "            }",
+                                            "          );",
+                                            "      }",
+                                            "    }",
+                                            "  );",
+                                            "}"
+                                        ],
+                                        "name": "click",
+                                        "scope": "me"
+                                    },
+                                    "configAlternates": {
+                                        "fn": "string",
+                                        "implHandler": "code",
+                                        "name": "string",
+                                        "scope": "string"
+                                    },
+                                    "name": "onBtnGrabarClick",
+                                    "designerId": "e71eb7f2-2428-48ee-b3b5-0706a02f4984"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "name": "MyFieldSet1",
+                    "designerId": "9d07b7c9-166c-4a97-8375-c3fff7bf0470",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.Hidden",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Label",
+                                "layout|anchor": "100%",
+                                "name": "id_dominio"
+                            },
+                            "configAlternates": {
+                                "fieldLabel": "string",
+                                "layout|anchor": "string",
+                                "name": "string"
+                            },
+                            "name": "MyHiddenField",
+                            "designerId": "2beb6832-77d3-4855-bf7e-92451aaaa99f"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "anchor": "100%",
+                                "fieldLabel": "Descripción",
+                                "name": "descripcion_dominio"
+                            },
+                            "configAlternates": {
+                                "anchor": "string",
+                                "fieldLabel": "string",
+                                "name": "string"
+                            },
+                            "name": "MyTextField4",
+                            "designerId": "ea370c69-54f6-4888-98a2-d12e9a334087"
+                        },
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Estado",
+                                "layout|anchor": "100%",
+                                "name": "estado_dominio",
+                                "store": [
+                                    "[['A','Activo'],['I','Inactivo']]"
+                                ]
+                            },
+                            "configAlternates": {
+                                "store": "array",
+                                "fieldLabel": "string",
+                                "layout|anchor": "string",
+                                "name": "string"
+                            },
+                            "name": "MyComboBox3",
+                            "designerId": "c981b124-9b58-453d-b428-2b69d615a1e7"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Servidor",
+                                "layout|anchor": "100%",
+                                "name": "servidor"
+                            },
+                            "configAlternates": {
+                                "fieldLabel": "string",
+                                "layout|anchor": "string",
+                                "name": "string"
+                            },
+                            "name": "MyTextField5",
+                            "designerId": "e3639719-8868-4ee4-8a5e-68842cb5e7ac"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Usuario",
+                                "layout|anchor": "100%",
+                                "name": "usuario"
+                            },
+                            "configAlternates": {
+                                "fieldLabel": "string",
+                                "layout|anchor": "string",
+                                "name": "string"
+                            },
+                            "name": "MyTextField6",
+                            "designerId": "b2cb390d-601a-4711-979b-a60e38ebda18"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Clave",
+                                "inputType": "password",
+                                "layout|anchor": "100%",
+                                "name": "clave"
+                            },
+                            "configAlternates": {
+                                "fieldLabel": "string",
+                                "inputType": "string",
+                                "layout|anchor": "string",
+                                "name": "string"
+                            },
+                            "name": "MyTextField7",
+                            "designerId": "c447f622-b1ce-4a58-b82f-306ec0dc1c62"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Directorio FTP",
+                                "layout|anchor": "100%",
+                                "name": "directorio_ftp"
+                            },
+                            "configAlternates": {
+                                "fieldLabel": "string",
+                                "layout|anchor": "string",
+                                "name": "string"
+                            },
+                            "name": "MyTextField8",
+                            "designerId": "faa34c68-c432-46e8-bdc6-ce5e9db31fa1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "viewcontrollereventbinding",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onWinDominiosAfterRender",
+                "implHandler": [
+                    "this.loadForm(component.data);"
+                ],
+                "name": "afterrender",
+                "scope": "me"
+            },
+            "configAlternates": {
+                "fn": "string",
+                "implHandler": "code",
+                "name": "string",
+                "scope": "string"
+            },
+            "name": "onWinDominiosAfterRender",
+            "designerId": "c825a545-bc52-47f6-979e-c8459789b378"
+        }
+    ]
+}

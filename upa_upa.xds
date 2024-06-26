@@ -1,0 +1,80 @@
+{
+    "name": "upa_upa",
+    "settings": {
+        "cmd": {
+            "license": "commercial",
+            "cmdVersion": "7.3.0.19",
+            "frameworkVersion": "7.3.0.55"
+        },
+        "urlPrefixTemplate": "http://localhost:{port}/{path}",
+        "urlPrefix": "http://localhost:55403/",
+        "canvasControls": {
+            "viewportSize": {
+                "name": "Auto Expand",
+                "builtIn": true,
+                "height": null,
+                "width": null
+            }
+        },
+        "exportPath": "",
+        "spacesToIndent": 2,
+        "sdkPath": "",
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true,
+        "lastBuildSelection": {
+            "value": "webBuild",
+            "display": "Build web app",
+            "buildPlatform": false
+        },
+        "installStatus": "Not Installed"
+    },
+    "xdsVersion": "4.2.9",
+    "xdsBuild": 443,
+    "schemaVersion": 1,
+    "upgradeVersion": 310000000001,
+    "framework": "ext73",
+    "viewOrderMap": {
+        "view": [
+            "847c810b-2610-4ea4-b455-6068a982d299",
+            "18cb483d-436a-4efb-9e5d-29b4d1388f9f",
+            "69f76c2b-2887-477f-8198-1e216df92658",
+            "6d66a411-f074-4e55-b0f5-e5babfe8d692",
+            "ce335eb5-ecec-45f0-948c-219effefe996",
+            "4fb4096c-b755-4ad3-88b9-635db3779d9e",
+            "1bd6662a-11b0-456b-b352-df06f9251cee",
+            "f3bda2d1-22dc-4df1-91aa-3c83efdd1e1f",
+            "d89a0c00-a7d1-456e-9d89-dd2957099529"
+        ],
+        "store": [
+            "310fa564-05d5-4448-90cf-9964e08cf9db",
+            "1f837c7d-5f92-4c0f-b399-908a95954784",
+            "f9b839b7-bbe1-49ec-8366-50d4369a8313",
+            "a6d398f1-c67a-4d93-b4da-1f77aba0322d",
+            "1de8116d-35ec-4703-9d6a-0838b9cfdc28",
+            "1cf6fa27-b3e2-47a7-bf3a-6794aa4a38e6"
+        ],
+        "controller": [
+            "b7e33eb7-71f3-433f-88a5-b773ece4f10f"
+        ],
+        "model": [
+            "1816fc77-3a9d-46b6-8275-ba24e3244588",
+            "d7875dda-72ee-426d-9873-627c346d7682",
+            "935eba70-3b80-4d09-9071-e0d046417d22",
+            "9a5dfb02-f54e-49b2-b94a-6f05d21610f9",
+            "f6335f44-007e-4086-8fff-f2093541d960",
+            "07635f92-6755-4bbb-af31-90a74c176b43"
+        ],
+        "resource": [
+            "1e0707d5-468d-4891-bbff-a31fd90981fc",
+            "f75eb7e0-b1a2-4cdb-a4a1-617d49c54167",
+            "0dc12274-ff3d-467b-a392-b12cf007bf04",
+            "f512ae9c-ccde-4351-abb5-d76c3a91f835"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "type": "Ext.app.ViewController",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "windominios",
+        "designer|userClassName": "winDominiosViewController"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string"
+    },
+    "designerId": "d89a0c00-a7d1-456e-9d89-dd2957099529",
+    "cn": [
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|params": [
+                    "data"
+                ],
+                "fn": "loadForm",
+                "implHandler": [
+                    "let forma = Ext.getCmp('frmDominios').getForm();",
+                    "forma.reset(true);",
+                    "forma.setValues(data);"
+                ]
+            },
+            "configAlternates": {
+                "designer|params": "typedarray",
+                "fn": "string",
+                "implHandler": "code"
+            },
+            "name": "loadForm",
+            "designerId": "c1521b49-e3d2-42b9-aa40-a9919d924b56"
+        }
+    ]
+}

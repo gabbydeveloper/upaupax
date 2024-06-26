@@ -1,0 +1,20 @@
+{
+    "type": "cssresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "css_btkd8qkc",
+        "remote": true,
+        "url": "../servidor/css/style.css"
+    },
+    "configAlternates": {
+        "designer|userClassName": "string",
+        "remote": "boolean",
+        "url": "uri"
+    },
+    "name": "css",
+    "designerId": "f512ae9c-ccde-4351-abb5-d76c3a91f835"
+}

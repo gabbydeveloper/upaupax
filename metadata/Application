@@ -1,0 +1,44 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "DominiosModel",
+            "AplicacionesModel",
+            "InformacionModel",
+            "ArchivosXAplicacionModel",
+            "ArchivosModel",
+            "AplicacionesScriptModel"
+        ],
+        "name": "Upa_Upa",
+        "requires": [
+            "Ext.window.Toast"
+        ],
+        "stores": [
+            "DominiosStore",
+            "AplicacionesStore",
+            "ArchivosXAplicacionStore",
+            "ArchivosStore",
+            "InformacionStore",
+            "AplicacionesScriptStore"
+        ],
+        "views": [
+            "cntPrincipal",
+            "winArchivos",
+            "winDominios"
+        ]
+    },
+    "configAlternates": {
+        "name": "string",
+        "views": "typedarray",
+        "models": "typedarray",
+        "stores": "typedarray",
+        "requires": "typedarray"
+    },
+    "name": "Application",
+    "designerId": "application"
+}

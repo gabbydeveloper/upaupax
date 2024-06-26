@@ -1,0 +1,87 @@
+{
+    "type": "class",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "funciones",
+        "singleton": true
+    },
+    "configAlternates": {
+        "designer|userClassName": "string",
+        "singleton": "boolean"
+    },
+    "name": "MyClass",
+    "designerId": "b7e33eb7-71f3-433f-88a5-b773ece4f10f",
+    "cn": [
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|params": [
+                    "idWin",
+                    "params"
+                ],
+                "fn": "showWin",
+                "implHandler": [
+                    "let win = Ext.getCmp(idWin);",
+                    "if (win === null || typeof(win) === 'undefined'){",
+                    "  win = Ext.create('Upa_Upa.view.' + idWin);",
+                    "  this.setWinParams(win, params);",
+                    "  win.setPosition(10, 90);",
+                    "  win.show();",
+                    "}",
+                    "else{",
+                    "  this.setWinParams(win, params);",
+                    "  win.fireEvent('afterrender', win);",
+                    "}",
+                    "",
+                    "win.toFront(true);"
+                ]
+            },
+            "configAlternates": {
+                "designer|params": "typedarray",
+                "fn": "string",
+                "implHandler": "code"
+            },
+            "name": "showWin",
+            "designerId": "cb488d2d-1905-41c0-8c26-358815d037b7"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|params": [
+                    "win",
+                    "params"
+                ],
+                "fn": "setWinParams",
+                "implHandler": [
+                    "if(params !== '' && params !== null && typeof(params) !== 'undefined')",
+                    "{",
+                    "  Object.getOwnPropertyNames(params).forEach(function(val, idx, array){",
+                    "    win[val] = params[val];",
+                    "  });",
+                    "}"
+                ]
+            },
+            "configAlternates": {
+                "designer|params": "typedarray",
+                "fn": "string",
+                "implHandler": "code"
+            },
+            "name": "setWinParams",
+            "designerId": "659a0948-4869-4e2d-902c-b82e2067c706"
+        }
+    ]
+}

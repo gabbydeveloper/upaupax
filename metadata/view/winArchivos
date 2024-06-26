@@ -1,0 +1,129 @@
+{
+    "type": "Ext.window.Window",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "winarchivos",
+        "designer|userClassName": "winArchivos",
+        "height": 370,
+        "id": "winArchivos",
+        "layout": "fit",
+        "maximizable": true,
+        "title": "Archivos por subir",
+        "width": 644
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "id": "string",
+        "layout": "string",
+        "maximizable": "boolean",
+        "title": "string",
+        "width": "auto"
+    },
+    "name": "MyWindow",
+    "designerId": "6d66a411-f074-4e55-b0f5-e5babfe8d692",
+    "viewControllerInstanceId": "4fb4096c-b755-4ad3-88b9-635db3779d9e",
+    "viewModelInstanceId": "ce335eb5-ecec-45f0-948c-219effefe996",
+    "cn": [
+        {
+            "type": "Ext.grid.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "columnLines": true,
+                "forceFit": true,
+                "id": "grdArchivos",
+                "store": "ArchivosStore"
+            },
+            "configAlternates": {
+                "columnLines": "boolean",
+                "forceFit": "boolean",
+                "id": "string",
+                "store": "store"
+            },
+            "name": "MyGridPanel5",
+            "designerId": "49a56cc3-3d0c-4995-8e17-8a471ce5e315",
+            "cn": [
+                {
+                    "type": "Ext.grid.column.Column",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dataIndex": "directorio",
+                        "text": "Directorio"
+                    },
+                    "configAlternates": {
+                        "dataIndex": "datafield",
+                        "text": "string"
+                    },
+                    "name": "MyColumn9",
+                    "designerId": "083ab41e-c555-4bc6-b7f8-8aeac73e8e17"
+                },
+                {
+                    "type": "Ext.grid.column.Column",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dataIndex": "archivo",
+                        "text": "Archivo"
+                    },
+                    "configAlternates": {
+                        "dataIndex": "datafield",
+                        "text": "string"
+                    },
+                    "name": "MyColumn10",
+                    "designerId": "eb1a20cc-2bca-491f-b1c8-97cd1f6b24dd"
+                },
+                {
+                    "type": "Ext.view.Table",
+                    "reference": {
+                        "name": "viewConfig",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "name": "MyTable5",
+                    "designerId": "99043a60-d801-47be-b5b4-62457decb076"
+                }
+            ]
+        },
+        {
+            "type": "viewcontrollereventbinding",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onWinArchivosAfterRender",
+                "implHandler": [
+                    "Ext.getCmp('grdArchivos').getStore().proxy.extraParams = {idGrid: 'archivos', idFiltro: component.idFiltro};",
+                    "Ext.getCmp('grdArchivos').getStore().load();"
+                ],
+                "name": "afterrender",
+                "scope": "me"
+            },
+            "configAlternates": {
+                "fn": "string",
+                "implHandler": "code",
+                "name": "string",
+                "scope": "string"
+            },
+            "name": "onWinArchivosAfterRender",
+            "designerId": "5bd281eb-c324-4f5b-8df6-dea6b26bb8aa"
+        }
+    ]
+}

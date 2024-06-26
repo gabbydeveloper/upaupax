@@ -1,0 +1,6 @@
+{
+    "webBuild": {
+        "environment": "production",
+        "publishPath": "C:\\wamp64\\www\\upaupa"
+    }
+}
